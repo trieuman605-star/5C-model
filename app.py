@@ -239,7 +239,7 @@ with tab_inference:
                 # Gom cụm bố cục nhập liệu theo cấu trúc 5C giúp tăng tính công thái học
                 st.markdown("**1. Tư cách người vay (Character - TC)**")
                 c1, c2, c3, c4, c5 = st.columns(5)
-tc1 = c1.slider("TC1", 1, 5, 4, help="Tư cách khách hàng tiêu chí số 1")
+                tc1 = c1.slider("TC1", 1, 5, 4, help="Tư cách khách hàng tiêu chí số 1")
                 tc2 = c2.slider("TC2", 1, 5, 5, help="Tư cách khách hàng tiêu chí số 2")
                 tc3 = c3.slider("TC3", 1, 5, 5, help="Tư cách khách hàng tiêu chí số 3")
                 tc4 = c4.slider("TC4", 1, 5, 5, help="Tư cách khách hàng tiêu chí số 4")
