@@ -275,7 +275,8 @@ with tab_inference:
                 ts2 = ts_c2.slider("TS2", 1, 5, 4, help="Giá trị pháp lý tài sản số 2")
                 ts3 = ts_c3.slider("TS3", 1, 5, 4, help="Giá trị pháp lý tài sản số 3")
                 ts4 = ts_c4.slider("TS4", 1, 5, 3, help="Giá trị pháp lý tài sản số 4")
-btn_predict = st.form_submit_button("🚀 Đánh giá rủi ro hồ sơ")
+
+                btn_predict = st.form_submit_button("🚀 Đánh giá rủi ro hồ sơ")
                 
             if btn_predict:
                 # Tổ chức vectơ đầu vào khớp hoàn toàn dạng mảng 2 chiều theo cấu hình huấn luyện gốc
